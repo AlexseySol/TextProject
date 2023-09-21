@@ -5,7 +5,7 @@ function Comments({ comment }) {
   return (
     <div className={item.wrapper}>
       <div className={item.box}>
-        <h2 className={item.title}>Comments #{comment} </h2>
+        <h2 className={item.title}>Comments #{comment}</h2>
         <form className={item.formBox} action="">
           <input className={item.InputColor} type="color" />
           <textarea

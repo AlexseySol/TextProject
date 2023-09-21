@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  background-color: #fff;
+  padding: 10px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+  p {
+    padding-left: 15px;
+  }
+  span {
+    display: flex;
+    padding: 13px 15px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    border-radius: 50%;
+    vertical-align: baseline;
+    color: #fff;
+    background-color: #17a2b8;
+  }
+  button {
+    border: 1px solid transparent;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    color: #dc3545;
+    background-color: transparent;
+    background-image: none;
+    border-color: #dc3545;
+    margin: 0px 5px;
+  }
+}
+.box {
+  display: flex;
+}
+.wrapper_activ {
+  border-left: 4px solid deeppink;
+}

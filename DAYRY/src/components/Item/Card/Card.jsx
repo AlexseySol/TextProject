@@ -3,13 +3,7 @@ import card from "./Card.module.scss";
 import ContextApp from "../../../Context";
 
 function Card({ id, text, quantity }) {
-  const { setComment, selectTodoId, setSelectTodoId, deleteCard } =
-    React.useContext(ContextApp);
-
-  const clickId = (id) => {
-    setSelectTodoId(id);
-    setComment(id);
-  };
+  const { selectTodoId, deleteCard, clickId } = React.useContext(ContextApp);
 
   return (
     <div
